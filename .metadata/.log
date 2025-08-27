@@ -478,3 +478,16 @@ java.lang.Exception: The project description file (.project) for '.org.eclipse.e
 
 !ENTRY ch.qos.logback.classic 1 0 2025-08-25 11:17:47.179
 !MESSAGE Logback config file: /Users/jsy/Desktop/폴더 for 폴더/포폴/경북소프트웨어마이스터고/객체지향프로그래밍B/objectorientedprogrammingB/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-08-27 09:50:32.874 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-27 09:50:33.990
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-27 09:50:39.029
+!MESSAGE Logback config file: /Users/jsy/Desktop/폴더 for 폴더/포폴/경북소프트웨어마이스터고/객체지향프로그래밍B/objectorientedprogrammingB/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
