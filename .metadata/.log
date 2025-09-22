@@ -556,3 +556,32 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse
 
 !ENTRY ch.qos.logback.classic 1 0 2025-09-17 10:21:47.547
 !MESSAGE Logback config file: /Users/jsy/Desktop/폴더 for 폴더/포폴/경북소프트웨어마이스터고/객체지향프로그래밍B/objectorientedprogrammingB/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-09-22 10:41:30.103 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-22 10:41:30.944
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-09-22 10:41:39.970
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-22 10:41:40.190
+!MESSAGE Logback config file: /Users/jsy/Desktop/폴더 for 폴더/포폴/경북소프트웨어마이스터고/객체지향프로그래밍B/objectorientedprogrammingB/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-09-22 10:49:40.252 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-22 10:49:41.456
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-09-22 10:49:47.585
+!MESSAGE Logback config file: /Users/jsy/Desktop/폴더 for 폴더/포폴/경북소프트웨어마이스터고/객체지향프로그래밍B/objectorientedprogrammingB/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
