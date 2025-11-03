@@ -1,0 +1,22 @@
+package exam1022.tire;
+
+public class Michelin extends Tire{
+    protected String brand = "Michelin";
+    public  Michelin(int maxRoll) {
+        this.maxRoll = maxRoll;
+    }
+    @Override
+    public boolean Roll() {
+        nowRoll++;
+        if (nowRoll > maxRoll) {
+            System.out.println(brand + "펑크");
+            return false;
+        } else  {
+            return true;
+        }
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+}
