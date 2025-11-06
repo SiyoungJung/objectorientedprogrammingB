@@ -1,8 +1,8 @@
 package sec01.exam05;
 
-public class SmartTVExample {
+public class SmartTelevisionExample {
     public static void main(String[] args) {
-        SmartTVExample tv = new SmartTVExample();
+        SmartTelevision tv = new SmartTelevision();
 
         RemoteControl rc = tv;
         rc.turnOn();
