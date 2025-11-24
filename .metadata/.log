@@ -4677,3 +4677,66 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse
 
 !ENTRY ch.qos.logback.classic 1 0 2025-11-06 08:34:58.412
 !MESSAGE Logback config file: /Users/jsy/Desktop/폴더 for 폴더/포폴/경북소프트웨어마이스터고/객체지향프로그래밍B/objectorientedprogrammingB/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.core.resources 4 273 2025-11-07 10:31:43.255
+!MESSAGE Problems cleaning up history store.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(null)[567]: java.io.EOFException
+	at java.base/java.io.DataInputStream.readUnsignedByte(DataInputStream.java:297)
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:275)
+	at org.eclipse.core.internal.localstore.Bucket.loadEntries(Bucket.java:371)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:345)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:312)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:108)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:119)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:119)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:83)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:189)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1253)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2498)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:555)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2025-11-07 10:31:43.262
+!MESSAGE Could not read metadata for '/Users/jsy/Desktop/폴더 for 폴더/포폴/경북소프트웨어마이스터고/객체지향프로그래밍B/objectorientedprogrammingB/.metadata/.plugins/org.eclipse.core.resources/.projects/cote/.indexes/e4/22/history.index'.
+!STACK 0
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readUnsignedByte(DataInputStream.java:297)
+	at java.base/java.io.DataInputStream.readByte(DataInputStream.java:275)
+	at org.eclipse.core.internal.localstore.Bucket.loadEntries(Bucket.java:371)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:345)
+	at org.eclipse.core.internal.localstore.Bucket.load(Bucket.java:312)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:108)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:119)
+	at org.eclipse.core.internal.localstore.BucketTree.internalAccept(BucketTree.java:119)
+	at org.eclipse.core.internal.localstore.BucketTree.accept(BucketTree.java:83)
+	at org.eclipse.core.internal.localstore.HistoryStore2.clean(HistoryStore2.java:189)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1253)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2498)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$1(IDEWorkbenchAdvisor.java:555)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
+!SESSION 2025-11-10 10:47:54.696 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-10 10:47:55.664
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-10 10:47:55.751
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (591) Component descriptor entry 'OSGI-INF/*.xml' not found
+!SESSION 2025-11-24 10:53:32.239 -----------------------------------------------
+eclipse.buildId=4.36.0.20250605-1300
+java.version=21.0.8
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/jsy/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-24 10:53:34.321
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-24 10:53:34.428
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (591) Component descriptor entry 'OSGI-INF/*.xml' not found
